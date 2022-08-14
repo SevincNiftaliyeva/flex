@@ -1,0 +1,230 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    height: 20%;
+}
+
+.head {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    width: 40%;
+}
+
+.name h1 {
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+
+}
+
+.nav {
+    width: 10%;
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.nav a:first-child {
+    border-left: 0 none;
+}
+
+.nav a {
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    border-left: 1px solid #efefef;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* height: 70%; */
+    width: 100%;
+    line-height: 30px
+}
+
+.leftside {
+    background-color: #fff;
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #ccc;
+
+}
+
+.leftside h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    border-bottom: 2px solid #999;
+    margin-bottom: 10px;
+}
+
+.leftside p {
+    font-size: 25px;
+    /* margin-top: 10px; */
+    color: #777;
+    padding-bottom: 40px;
+
+}
+
+.leftside img {
+    width: 40%;
+    height: 15%;
+}
+
+.main {
+    display: flex;
+    gap: 30px;
+}
+
+.main p {
+    font-size: 25px;
+    color: #777;
+
+}
+
+.rightside {
+    width: 200px;
+    padding: 30px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.rightside .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rightside h1 {
+    font-size: 22px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    border-bottom: 2px solid #999;
+    margin-bottom: 10px;
+}
+
+.rightside img {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+
+footer .container {
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* CONTACT */
+.contact {
+    
+    background-color: #fff;
+    width: 40%;
+   
+    padding: 15px;
+    border: 1px solid #ccc;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+
+}
+.input textarea{
+    height: 200px;
+}
+input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+.input button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    width: 20%;
+}
+.input label{
+    color: #666;
+    font-size: 20px;
+}
+.contact h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+/* Portfolio */
+
+.images img {
+    width: 270px;
+    height: 200px;
+   
+    }
+    .work {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 0 25px;
+        overflow: auto;
+    }
+    .work h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 88%;
+        padding: 15px;
+        margin-bottom: 0;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        background: #4aaaa5;
+    }
